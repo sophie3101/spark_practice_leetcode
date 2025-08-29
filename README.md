@@ -1,9 +1,20 @@
 This repository contains my solutions for LeetCode SQL challenges. This is a good way to practice using Apache Spark (PySpark) and Spark SQL
-example repo:
-https://github.com/cM2908/leetcode-spark/blob/main/DataFrame%20Solutions/2051.%20The%20Category%20of%20Each%20Member%20in%20the%20Store%20(Medium).txt
 
+## Easy Level
 
-How to run PySpark script
+| ID | description                     | Solution               |
+| :------: | :------------------------------- | :-------------------- |
+|    1280    | [question1280](https://leetcode.com/problems/students-and-examinations/description/) | [solution](easy_levels/1280_students_n_examinations.py) |
+
+## Medium Level
+
+| ID | description                     | Solution               |
+| :------: | :------------------------------- | :-------------------- |
+| 180| [question180](https://leetcode.com/problems/consecutive-numbers/description/) | [solution](medium_levels/180_consecutive_numbers.py) |
+| 550| [question550](https://leetcode.com/problems/students-and-examinations/description/) | [solution](easy_levels/1280_students_n_examinations.py) |
+| 1280| [question1280](https://leetcode.com/problems/students-and-examinations/description/) | [solution](easy_levels/1280_students_n_examinations.py) |
+| 1280| [question1280](https://leetcode.com/problems/students-and-examinations/description/) | [solution](easy_levels/1280_students_n_examinations.py) |
+## How to run PySpark script
 
 1. using spark-submit;
 spark-submit your_script.py

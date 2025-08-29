@@ -21,11 +21,23 @@ docker run -it --rm \
   -v /path/to/your/project:/app \
   -p 4040:4040 \
   apache/spark:latest /bin/bash
-  
-Inside the container:
+  Inside the container:
 apt-get update && apt-get install -y python3 python3-pip
 pip3 install pyspark
 spark-submit --master local[*] /app/spark_script.py
+
+OR 
+
+docker run -it --rm \
+  -p 4040:4040 \
+  apache/spark:latest ../bin/pyspark
+
+
+
+-- running spark using jupyter notebook:
+    docker run -it --rm -p 8888:8888 jupyter/pyspark-notebook
+if u want to save the script
+    docker run -it --rm -p 8888:8888 -v $PWD:/home/jovyan/work jupyter/pyspark-notebook
 
 RDD (Residlient Distributed Datasets)
 
